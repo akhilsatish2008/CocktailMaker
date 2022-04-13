@@ -4,7 +4,8 @@
     	<meta charset="utf-8">
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
-
+			<link rel="stylesheet" href="css/style.css">
+			<script src="https://kit.fontawesome.com/e6a85b95f3.js" crossorigin="anonymous"></script>
 		<title>Title in the tab</title>
 
 		<!-- external CSS link -->
@@ -13,13 +14,52 @@
 	</head>
 	<body>
 
-		<h1>Which Cocktail?</h1>
-		<input type="text" name="" value="">
-		<button type="button" name="button">Get Cocktail</button>
+		<h1>Search Cocktails</h1>
 
-		<h2>Name</h2>
-		<img src="" alt="">
-		<h3>Instructions</h3>
+		<div class="search-box">
+					<input class="search-txt" type="text" name="" placeholder="Enter Preferred Alchol">
+					<a class="search-btn" href="#">
+			  			<i class="fa-solid fa-magnifying-glass"></i>
+				 </a>
+		</div>
+
+		<div class="carousel"  id="container">
+			<button id="rightbtn" class="big-button">
+					<img  src="img/8712789_backward_iso_premium_icon.png" alt="3-D Image of back button for image carousel">
+			</button>
+
+					<div class="carousel-imgs">
+
+										<div class="carousel__track-container">
+													<ul>
+															<li class="carousel__slide">
+																	<img class="carousel__img"src="img/Screenshot_2022-04-12_23-26-12.png" alt="">
+																	<div class="name">Drink Name</div>
+																	<h2></h2>
+																	<h1>Receipe</h1>
+																	<h3></h3>
+																	<h1>Ingredients</h1>
+																	<p></p>
+															</li>
+											</div>
+						</div>
+
+						<button id="leftbtn" class="big-button">
+								<img  src="img/8712781_forward_iso_premium_icon.png" alt="3-D Image of forward button for image carousel">
+						</button>
+
+
+
+				</div>
+
+
+
+		</div>
+
+
+
+
+
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
