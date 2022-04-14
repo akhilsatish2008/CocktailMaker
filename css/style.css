@@ -86,12 +86,12 @@ img{
 
 
 
-#rightbtn{
+#prevBtn{
   position: absolute;
   top:30%;
   left:-35%
 }
-#leftbtn{
+#nextBtn{
   position: absolute;
   top: 30%;
   right: -35%;
@@ -175,27 +175,23 @@ button.big-button:active::before {
   height: 700px;
   background: #6a7fdb;
   border-radius: 15px;
-
   text-align: center;
-
   width: 600px;
-
-  /* Center the container in middle on horizontal axis */
   margin: 0 auto;
-
-
-  /* Add empty space above the container (20% of the view height) */
   margin-bottom:  10px;
+}
+.carousel__track{
+
 }
 .carousel__img{
   /* Change background color */
 background-color: black;
 
 /* Add border */
-border: 1px solid #bacdd8;
+border: 1px solid #0e5a86;
 
 /* Add space between the border and the content */
-padding: 8px;
-
+padding: 5px;
+margin-top:20px;
 border-radius: 12px;
 }
