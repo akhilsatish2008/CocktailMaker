@@ -7,7 +7,7 @@ This app let's you search the type of alchol that you want to drink and show's a
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, and JavaScript
+**Tech used:** ![HTML5 BADGE](https://img.shields.io/static/v1?label=|&message=HTML5&color=23555f&style=plastic&logo=html5)![CSS BADGE](https://img.shields.io/static/v1?label=|&message=CSS3&color=285f65&style=plastic&logo=css3)![JAVASCRIPT BADGE](https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript)
 
 Using a fetch in the client-side js, I was able to get Json objects back from the https://www.thecocktaildb.com. I used the endpoints they gave me to query specific dink types and get all the relevent data. With this data I built a simple search on the client side that will query all drinks based on the alchol type🍸
 ## Optimizations
