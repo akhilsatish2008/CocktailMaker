@@ -11,7 +11,7 @@ This app let's you search the type of alchol that you want to drink and show's a
 
 Using a fetch in the client-side js, I was able to get Json objects back from the https://www.thecocktaildb.com. I used the endpoints they gave me to query specific dink types and get all the relevent data. With this data I built a simple search on the client side that will query all drinks based on the alchol type🍸
 ## Optimizations
-Some optimizations i have to do now is pu fetch on server side so there is no clientside fetch. Then I need to optimize my styling as most of it was just put together to see whether the logic was working or not.
+Some optimizations I have to do are, putting the fetch on server side so there is no clientside fetch, then I need to optimize my styling as most of it was just put together to see whether the logic was working or not.
 
 ## Lessons Learned:
 
